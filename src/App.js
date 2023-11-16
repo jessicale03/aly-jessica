@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './components/pages/general_pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Search';
-import SignUp from './components/pages/SignUp';
+import SignUp from './components/pages/general_pages/SignUp';
 
 function App() {
   return (
